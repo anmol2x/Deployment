@@ -40,11 +40,11 @@ app.get("/about", (req, res) => {
 app.get("/contact", (req, res) => {
     res.render("contact");
 })
-app.get("/breed/Hedgehog", (req, res) => {
-    res.render("breed/Hedgehog");
+app.get("/animals/Hedgehog", (req, res) => {
+    res.render("animals/Hedgehog");
 })
-app.get("/breed/Peregrine Falcon", (req, res) => {
-    res.render("breed/Peregrine Falcon");
+app.get("/animals/Peregrine Falcon", (req, res) => {
+    res.render("animals/Peregrine Falcon");
 
 
 })
