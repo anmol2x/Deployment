@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c5cf91-5ca0-4493-a030-a9a42f228d36" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/public/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/breedheader.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/breedheader.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/orgheader.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/orgheader.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/about.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/breed/german.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/breed/german.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/breed/labrador.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/breed/labrador.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/contact.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/contact.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/index.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +52,7 @@
       <workItem from="1643668603325" duration="109000" />
       <workItem from="1643668742811" duration="75000" />
       <workItem from="1643669307456" duration="695000" />
-      <workItem from="1643915773281" duration="1316000" />
+      <workItem from="1643915773281" duration="1855000" />
     </task>
     <servers />
   </component>
