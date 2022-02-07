@@ -2,9 +2,7 @@ require('dotenv').config({ path: './config.env' })
 const express = require("express");
 const app = express();
 const path = require("path");
-const mongoose = require("mongoose");
 const port = process.env.PORT || 3000;
-const db = require("./db/conn");
 const Register = require("./models/registers")
 const hbs = require("hbs");
 const bcrypt = require("bcrypt");
