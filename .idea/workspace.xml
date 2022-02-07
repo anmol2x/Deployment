@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c5cf91-5ca0-4493-a030-a9a42f228d36" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partials/breedheader.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/breedheader.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/partials/orgheader.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/orgheader.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/views/about.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/about.hbs" afterDir="false" />
@@ -56,7 +55,7 @@
       <workItem from="1643915773281" duration="4709000" />
       <workItem from="1643982013209" duration="211000" />
       <workItem from="1644164382977" duration="680000" />
-      <workItem from="1644268750298" duration="1018000" />
+      <workItem from="1644268750298" duration="1367000" />
     </task>
     <servers />
   </component>
