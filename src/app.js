@@ -9,7 +9,6 @@ const Register = require("./models/registers")
 const hbs = require("hbs");
 const bcrypt = require("bcrypt");
 
-
 const static_path = path.join(__dirname, "../public");
 const view_path = path.join(__dirname, "../templates/views");
 const partials_path = path.join(__dirname, "../templates/partials");
