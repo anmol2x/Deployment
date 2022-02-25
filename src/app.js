@@ -36,7 +36,7 @@ app.get("/index", (req, res) => {
 app.get("/about", (req, res) => {
     res.render("about");
 })
-app.get("/espa", (req, res) => {
+app.get("/about", (req, res) => {
     res.render("blog");
 })
 app.get("/contact", (req, res) => {
