@@ -57,8 +57,8 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="services" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">events</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown04">
-                            <a class="dropdown-item" href="login">Create an event</a>
-                            <a class="dropdown-item" href="login">Join an event</a>
+                            <a class="dropdown-item" href="events/create">Create an event</a>
+                            <a class="dropdown-item" href="events/join">Join an event</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -98,56 +98,127 @@
 </header>
 <!-- END header -->
 
-</div>
-<div class="col-9">
-    <div class="container p-3 w-100">
-        <h1 class="mt-5 mb-4">In Stock Products</h1>
-        <%- include('../partials/messages') -%>
+<section class="home-slider inner-page owl-carousel">
+    <div class="slider-item" style="background-image: url('img/slider-1.jpg');">
+
         <div class="container">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                <thead>
-                <tr>
-                    <th>SKU</th>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Stock</th>
-                    <th>Actions</th>
-                </tr>
-                </thead>
-                <tfoot>
-                <tr>
-                    <th>SKU</th>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Stock</th>
-                    <th>Actions</th>
-                </tr>
-                </tfoot>
-                <tbody>
-
-                <% products.forEach((pro)=> { %>
-                <tr>
-                    <td><%= pro.sku %></td>
-                    <td><%= pro.title %></td>
-                    <td><%= pro.newprice %></td>
-                    <td><%= pro.newstock %></td>
-                    <td>
-                        <a target="black" class="btn btn-primary p-2" href="<%= pro.url %>"><i class="fas fa-eye"></i></a>
-                        <form style="display: inline;" action="/delete/product/<%= pro.id %>?_method=DELETE" method="POST">
-                            <input type="hidden" name="_method" value="DELETE">
-                            <button style="cursor: pointer;" type="submit" class="btn btn-danger p-2"><i class="fas fa-trash"></i></button>
-                        </form>
-                    </td>
-                </tr>
-                <% }); %>
-
-                </tbody>
-            </table>
+            <div class="row slider-text align-items-center justify-content-center">
+                <div class="col-md-8 text-center col-sm-12 element-animate">
+                    <h1>About Us</h1>
+                    <p class="mb-0">Group35app is an online available, searchable database of about 300+ species who needs care. It is also a directory of
+                        nearby animal charities across various areas in Uxbridge, as well as outside the hyperlocal area.</p>
+                    <p><a href="#abou" class="btn btn-white btn-outline-white">Explore</a></p>
+                </div>
+            </div>
         </div>
 
     </div>
-</div>
-</div>
+</section>
+<!-- END slider -->
+
+<section>
+    <div class="half d-md-flex d-block">
+        <div class="image" style="background-image: url('img/bg5.jpg')"></div>
+        <div class="text text-center element-animate">
+            <h3 class="mb-0">Our Mission</h3>
+            <p class="mb-0">Our group project is about life on land.</p>
+            <p><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+        </div>
+    </div>
+
+</section>
+
+<section>
+    <div class="half d-md-flex d-block">
+        <div class="image" style="background-image: url('img/bg5.jpg')"></div>
+        <div class="text text-center element-animate">
+            <h3 class="mb-0">Our Mission</h3>
+            <p class="mb-0">Our group project is about life on land.</p>
+            <p><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+        </div>
+    </div>
+
+</section>
+
+<section>
+    <div class="half d-md-flex d-block">
+        <div class="image" style="background-image: url('img/bg5.jpg')"></div>
+        <div class="text text-center element-animate">
+            <h3 class="mb-0">Our Mission</h3>
+            <p class="mb-0">Our group project is about life on land.</p>
+            <p><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+        </div>
+    </div>
+
+</section>
+
+<section>
+    <div class="half d-md-flex d-block">
+        <div class="image" style="background-image: url('img/bg5.jpg')"></div>
+        <div class="text text-center element-animate">
+            <h3 class="mb-0">Our Mission</h3>
+            <p class="mb-0">Our group project is about life on land.</p>
+            <p><a href="#" class="btn btn-primary btn-sm">Learn More</a></p>
+        </div>
+    </div>
+
+</section>
+
+<section class="section bg-light">
+    <div class="row element-animate">
+        <div class="major-caousel js-carousel-1 owl-carousel">
+            <div>
+                <div class="media d-block media-custom text-center">
+                    <div class="media-body">
+                        <h6 class="mt-0 text-black">Anmol Kainth</h6>
+                        <h3 class="mt-0 text-black">Full-Stack</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="media d-block media-custom text-center">
+                    <div class="media-body">
+                        <h6 class="mt-0 text-black">Shayiq Solayman</h6>
+                        <h3 class="mt-0 text-black">Frontend</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="media d-block media-custom text-center">
+                    <div class="media-body">
+                        <h6 class="mt-0 text-black">Matthew Simms</h3>
+                            <h3 class="mt-0 text-black">Database</h6>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="media d-block media-custom text-center">
+                    <div class="media-body">
+                        <h6 class="mt-0 text-black">Bradley Fernandes</h6>
+                        <h3 class="mt-0 text-black">Frontend</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="media d-block media-custom text-center">
+                    <div class="media-body">
+                        <h6 class="mt-0 text-black">Sami Niazi</h6>
+                        <h3 class="mt-0 text-black">Frontend</h3>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="media d-block media-custom text-center">
+                    <div class="media-body">
+                        <h6 class="mt-0 text-black">Luis Miguel Marinho Cardoso Moreira</h6>
+                        <h3 class="mt-0 text-black">Frontend</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
 <!-- END section -->
 
 
