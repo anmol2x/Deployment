@@ -51,10 +51,10 @@ app.get("/species/Peregrine Falcon", (req, res) => {
 app.get("/species/Peregrine Falcon", (req, res) => {
     res.render("species/Peregrine Falcon");
 })
-app.get("/events/Create an event", (req, res) => {
-    res.render("events/Create an event");})
-app.get("/events/Join an event", (req, res) => {
-    res.render("events/Join an event");
+app.get("/events/create", (req, res) => {
+    res.render("events/create");})
+app.get("/events/join", (req, res) => {
+    res.render("events/join");
 })
 app.get("/organisation/ptoes", (req, res) => {
     res.render("organisation/ptoes");
