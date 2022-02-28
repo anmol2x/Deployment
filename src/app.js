@@ -59,6 +59,7 @@ app.get("/events/join", (req, res) => {
 app.get("/organisation/ptoes", (req, res) => {
     res.render("organisation/ptoes");
 })
+
 app.get("/organisation/zsl", (req, res) => {
     res.render("organisation/zsl");
 })
@@ -80,7 +81,6 @@ app.get("/organisation/bdch", (req, res) => {
 app.get("/organisation/arc", (req, res) => {
     res.render("organisation/arc");
 })
-
 
 
 app.post("/register", async (req, res) => {
