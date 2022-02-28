@@ -961,7 +961,9 @@ header {
   font-size: 1.2rem;
 }
 
-
+.form-control {
+  margin-top: 1.2rem;
+}
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body{font-family: 'Poppins', sans-serif;
   background: #fafafa}
