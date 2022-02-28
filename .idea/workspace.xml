@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c5cf91-5ca0-4493-a030-a9a42f228d36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/models/employee.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/partials/footer.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/footer.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/views/events/join.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/views/events/join.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="discord-project" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -37,6 +39,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Deployment\.idea" />
+      <recent name="D:\Deployment\public\libs" />
       <recent name="D:\Deployment\public" />
       <recent name="D:\Deployment\templates\views" />
     </key>
@@ -73,7 +77,7 @@
       <workItem from="1645822667179" duration="4750000" />
       <workItem from="1645831579060" duration="8393000" />
       <workItem from="1646067668720" duration="811000" />
-      <workItem from="1646071330916" duration="2139000" />
+      <workItem from="1646071330916" duration="2731000" />
     </task>
     <servers />
   </component>
