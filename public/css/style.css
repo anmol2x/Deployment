@@ -990,7 +990,7 @@ a:focus{
 #sidebar {
   min-width: 100%;
   max-width: 100%;
-  background: #dc3545;
+  background: #b0b0b0;
   color: #fff;
   transition: all 0.3s;
 }
@@ -1000,11 +1000,11 @@ a:focus{
 
 #sidebar .sidebar-header{
   padding: 20px;
-  background: #dc3545;
+  background: #b0b0b0;
 }
 #sidebar ul.components{
   padding: 20px 0px;
-  border-bottom: 1px solid #dc3545;
+  border-bottom: 1px solid #b0b0b0;
 }
 
 #sidebar ul li a{
@@ -1013,14 +1013,14 @@ a:focus{
   display: block;
 }
 #sidebar ul li a:hover {
-  color: #dc3545;
+  color: #b0b0b0;
   background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: #dc3545;
+  background: #b0b0b0;
 }
 a[data-toggle="collapse"] {
   position: relative;
@@ -1036,7 +1036,7 @@ a[data-toggle="collapse"] {
 ul ul a {
   font-size: 1rem !important;
   padding-left: 30px !important;
-  background: #dc3545;
+  background: #b0b0b0;
 }
 
 ul.CTAs {
@@ -1072,7 +1072,7 @@ span {
 }
 
 .bg-light{
-  background-color: #dc3545 !important;
+  background-color: #b0b0b0 !important;
 }
 
 .navbar-brand {
