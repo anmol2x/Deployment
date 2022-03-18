@@ -261,7 +261,7 @@ textarea.form-control {
     font-size: 12px; }
   .btn.btn-outline-primary {
     border-width: 2px;
-    color: #ffc107; }
+    color: #FFFFFFCB; }
     .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
       color: #fff; }
   .btn.btn-outline-white {
@@ -292,7 +292,7 @@ header {
         header .navbar-brand.absolute {
           position: relative; } }
     header .navbar-brand span {
-      color: #ffc107; }
+      color: #FFFFFFCB; }
   header .navbar {
     padding-top: 0;
     padding-bottom: 0;
@@ -337,16 +337,16 @@ header {
           header .navbar .dropdown-menu:before {
             display: none; } }
       header .navbar .dropdown-menu .dropdown-item:hover {
-        background: #ffc107;
+        background: #FFFFFFCB;
         color: #fff; }
       header .navbar .dropdown-menu .dropdown-item.active {
-        background: #ffc107;
+        background: #FFFFFFCB;
         color: #fff; }
       header .navbar .dropdown-menu a {
         padding-top: 7px;
         padding-bottom: 7px; }
     header .navbar .cta-btn a {
-      background: #ffc107;
+      background: #FFFFFFCB;
       color: #000 !important;
       padding-left: 20px !important;
       padding-right: 20px !important;
@@ -386,7 +386,7 @@ header {
 
 .section-heading .small-sub-heading {
   font-size: 14px;
-  color: #ffc107; }
+  color: #FFFFFFCB; }
 
 .blog .media h3 {
   font-size: 20px;
@@ -406,7 +406,7 @@ header {
 
 .custom-icon {
   font-size: 70px;
-  color: #ffc107; }
+  color: #FFFFFFCB; }
 
 /* Owl Carousel */
 .owl-carousel .owl-item {
@@ -594,7 +594,7 @@ header {
     position: relative;
     width: 0px;
     font-size: 30px;
-    color: #ffc107; }
+    color: #FFFFFFCB; }
 
 .load-more {
   display: block;
@@ -604,7 +604,7 @@ header {
   color: #000;
   font-size: 20px; }
   .load-more:hover {
-    background: #ffc107;
+    background: #FFFFFFCB;
     color: #fff; }
 
 .cover_1 {
@@ -634,7 +634,7 @@ header {
       -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
       transform: translateX(-50%);
-      background: #ffc107; }
+      background: #FFFFFFCB; }
 
 .text-black {
   color: #000 !important; }
@@ -658,7 +658,7 @@ header {
   font-size: 15px; }
   .media-feature .icon {
     font-size: 60px;
-    color: #ffc107; }
+    color: rgba(255, 255, 255, 0.8); }
   .media-feature h3 {
     font-size: 16px;
     text-transform: uppercase; }
@@ -669,7 +669,7 @@ header {
     -ms-transform: scale(1.05);
     transform: scale(1.05);
     z-index: 2;
-    border-bottom: 10px solid #ffc107; }
+    border-bottom: 10px solid #FFFFFFCB; }
 
 .media-custom {
   background: #fff;
@@ -742,7 +742,7 @@ header {
   .site-footer p:last-child {
     margin-bottom: 0; }
   .site-footer a {
-    color: #ffc107;
+    color: #FFFFFFCB;
     border-bottom: 1px solid transparent; }
     .site-footer a:hover {
       color: #fff;
