@@ -81,6 +81,23 @@ app.get("/organisation/bdch", (req, res) => {
 app.get("/organisation/arc", (req, res) => {
     res.render("organisation/arc");
 })
+app.get("/events/_form_fields", (req, res) => {
+    res.render("/events/_form_fields");
+})
+app.get("/events/edit", (req, res) => {
+    res.render("/events/edit");
+})
+app.get("/events/index", (req, res) => {
+    res.render("/events/index");
+})
+app.get("/events/new", (req, res) => {
+    res.render("/events/new");
+})
+app.get("/events/show", (req, res) => {
+    res.render("/events/show");
+})
+
+
 
 
 app.post("/register", async (req, res) => {
