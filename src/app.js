@@ -13,7 +13,12 @@ const static_path = path.join(__dirname, "../public");
 const view_path = path.join(__dirname, "../templates/views");
 const partials_path = path.join(__dirname, "../templates/partials");
 
-
+app.use(express.static(static_path));
+app.set("view engine", "hbs");
+app.set("views", view_path);
+hbs.registerPartials(partials_path);
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 
 app.get("/", (req, res) => {
@@ -126,4 +131,10 @@ app.get("*", (req, res) => {
     res.render('404page', {
         errorMsg: "Opps! page not found, Click Here to go back"
     })
+})
+
+
+
+app.listen(port, () => {
+    console.log(`listening on port ${port}`)
 })
