@@ -90,8 +90,8 @@ app.get("/events/edit", (req, res) => {
 app.get("/events/index", (req, res) => {
     res.render("/events/index");
 })
-app.get("/events/new", (req, res) => {
-    res.render("/events/new");
+app.get("/events/create", (req, res) => {
+    res.render("/events/create");
 })
 app.get("/events/show", (req, res) => {
     res.render("/events/show");
